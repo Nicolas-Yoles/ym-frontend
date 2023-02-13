@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BandejaGenerosComponent } from './modulos/generos/bandeja-generos/bandeja-generos.component';
+import { BandejaArtistasComponent } from './modulos/artistas/bandeja-artistas/bandeja-artistas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BandejaGenerosComponent,
+    BandejaArtistasComponent
   ],
   imports: [
     BrowserModule,
